@@ -1,0 +1,69 @@
+.card {
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto 2rem;
+  height: max-content;
+  padding: 1rem 1rem 1rem 2rem;
+  text-align: center;
+  font-size: 1rem;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #afafaf, -15px -15px 30px #ffffff;
+  border-radius: 12px;
+  background: #e0e0e0;
+  box-shadow: 6px -6px 8px #9d9d9d, -6px 6px 8px #ffffff;
+}
+.card button {
+  margin: 1rem 0.5rem;
+  background: white;
+}
+
+.card span {
+  background: #c7e0f8;
+  color: #0776de;
+  padding: 1rem;
+  width: 2rem;
+  margin: 2rem 0.5rem;
+  display: inline-block;
+  background: #e0e0e0;
+  box-shadow: 6px -6px 8px #9d9d9d, -6px 6px 8px #ffffff;
+  border-radius: 4px;
+  font-size: 2em;
+}
+.card img {
+  height: 1.5rem;
+}
+
+.startBtn {
+  border: 3px solid;
+  animation-iteration-count: infinite;
+  animation: flash 1s infinite;
+}
+
+.cardAnimation {
+  animation: wave 3s forwards infinite;
+  box-shadow: none;
+}
+@keyframes wave {
+  0% {
+    background: wheat;
+  }
+  50% {
+    background: teal;
+  }
+  100% {
+    background: rgb(1, 1, 40);
+    color: whitesmoke;
+  }
+}
+
+@keyframes flash {
+  0% {
+    border-color: red;
+  }
+  50% {
+    border-color: gold;
+  }
+  100% {
+    border-color: green;
+  }
+}
